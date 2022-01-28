@@ -5,28 +5,24 @@
 #include <iostream>
 #include <fstream> 
 
-
-
 using namespace std;
 
 int barl = 100;
 
 int main() {
 
-
     ifstream ifile;
-    ifile.open("OPEN_ME.txt");
+    ifile.open("632061206e202079206f20752020732065206520206d206520204e206f2077203f.txt");
     if (ifile) {
 
-        std::cout << "Program cannot be opened more than once" << std::endl;
-        Sleep(2000);
+        std::cout << "" << std::endl;
+        Sleep(5000);
         exit;
     }
 
     else {
-        std::ofstream outfile("OPEN_ME.txt");
-
-        outfile << "Test" << std::endl;
+        std::ofstream outfile("632061206e202079206f20752020732065206520206d206520204e206f2077203f.txt");
+        outfile << "oLHBmPMhtkPc7RmTuT+mSpMIWtBzJn/0ULPSEmDH2EX1J4sN6DYMZTERGhMMMCXzI/QfDCnacI/iBmNbfD9sTHJS93Jta+vayaDk9pP4ySkAuFxvcvanCZbxm73Gnc8t" << std::endl;
 
         outfile.close();
 
@@ -65,30 +61,6 @@ int main() {
 
 
         std::system("CLS");
-        cout << " " << std::endl;
-
-        char myStory[] = {
-
-              "G: You Found Me"
-
-        };
-
-        for (unsigned int x = 0; x < strlen(myStory); x++) {
-
-            cout << myStory[x];
-            Sleep(100);
-
-        }
-        Sleep(2000);
-
-
-
-        //cout << "G: You Found Me";
-        cout << " " << std::endl;
-        cout << " " << std::endl;
-        cout << "<< Press Enter to Continue >>";
-        cin.ignore();
-        std::system("CLS");
 
         cout << "" << std::endl;
         cout << "T" << std::endl;
@@ -113,11 +85,4 @@ int main() {
 
         }
     }
-    
-
-    
-
-  
-
-    
 }
