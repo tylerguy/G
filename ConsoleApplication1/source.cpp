@@ -3,24 +3,27 @@
 #include <stdio.h>
 #include <string.h>
 #include <iostream>
-#include <fstream> 
+#include <fstream>
 
 using namespace std;
 
 int barl = 100;
 
-int main() {
+int main()
+{
 
     ifstream ifile;
     ifile.open("632061206e202079206f20752020732065206520206d206520204e206f2077203f.txt");
-    if (ifile) {
+    if (ifile)
+    {
 
         std::cout << "" << std::endl;
         Sleep(5000);
         exit;
     }
 
-    else {
+    else
+    {
         std::ofstream outfile("632061206e202079206f20752020732065206520206d206520204e206f2077203f.txt");
         outfile << "oLHBmPMhtkPc7RmTuT+mSpMIWtBzJn/0ULPSEmDH2EX1J4sN6DYMZTERGhMMMCXzI/QfDCnacI/iBmNbfD9sTHJS93Jta+vayaDk9pP4ySkAuFxvcvanCZbxm73Gnc8t" << std::endl;
 
@@ -35,7 +38,8 @@ int main() {
 
         system("color 0e");
         cout << "[";
-        for (int i = 0; i < barl; i++) {
+        for (int i = 0; i < barl; i++)
+        {
             Sleep(100);
             cout << "=";
         }
@@ -51,14 +55,13 @@ int main() {
 
         system("color 0e");
         cout << "[";
-        for (int i = 0; i < barl; i++) {
+        for (int i = 0; i < barl; i++)
+        {
             Sleep(100);
             cout << "=";
         }
         cout << "]" << std::endl;
         Sleep(1000);
-
-
 
         std::system("CLS");
 
@@ -72,17 +75,16 @@ int main() {
         Sleep(1000);
         std::system("CLS");
 
-
         char SmileyStory[] = {
 
-              ":) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :)"
+            ":) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :)"
 
         };
-        for (unsigned int x = 0; x < strlen(SmileyStory); x++) {
+        for (unsigned int x = 0; x < strlen(SmileyStory); x++)
+        {
 
             cout << SmileyStory[x];
             Sleep(100);
-
         }
     }
 }
